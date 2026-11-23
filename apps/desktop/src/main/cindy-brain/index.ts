@@ -3425,6 +3425,7 @@ async function applyGhostAssistantRenderCard(
     GHOST_CARD_UPDATED_CHANNEL,
     {
       callId: clientId,
+      sessionId,
       ghostId: card.ghostId,
       toolUseId: null,
       html: sanitized.html,
